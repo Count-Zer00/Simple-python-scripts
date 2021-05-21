@@ -8,8 +8,8 @@ if i_convention.upper() == "C":
     Kelvin = degree + 273
     Unit = "Fahr and kelvin"
 
-    print(
-        f"Temperature in {Unit} is, {fahr} degrees and {Kelvin} kelvin")
+    print(f"Temperature in {Unit} is, 
+          {fahr} degrees and {Kelvin} kelvin")
 
 # for fahr
 elif i_convention.upper() == "F":
@@ -17,8 +17,8 @@ elif i_convention.upper() == "F":
     Kelvin = cel + 273
     Unit = "Cel and Kelvin"
 
-    print(
-        f"Temperature in {Unit} is, {cel} degrees and {Kelvin} kelvin")
+    print(f"Temperature in {Unit} is,
+          {cel} degrees and {Kelvin} kelvin")
 
 # for kelvin
 elif i_convention.upper() == 'K':
