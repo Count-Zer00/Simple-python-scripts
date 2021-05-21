@@ -26,8 +26,8 @@ elif i_convention.upper() == 'K':
     fahr = (degree - 273.15) * 9/5 + 32
     Unit = "cel and fahr"
 
-    print(f"Temperature in {Unit} is, {cel} degrees and {fahr} fahr")
-
+    print(f"Temperature in {Unit} is,
+          {cel} degrees and {fahr} fahr")
 
 else:
     print("improper convention")
